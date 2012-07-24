@@ -15,7 +15,7 @@ what’s returned.
 Let’s say that we want the id, subject and content fields from the discussion along with its author
 and the same fields from the discussion’s messages.
 
-``` php
+```php
 public function show() {
 	$discussion = Discussions::find($this->request->id);
 
