@@ -53,3 +53,8 @@ This works, but the code we’ve used isn’t very pretty.
 ### A better way
 
 Coming soon !
+
+
+#### Credits
+
+Loosely based on the [original](https://github.com/rails/jbuilder), and a [PHP port](https://github.com/dhotson/JBuilder-php)
