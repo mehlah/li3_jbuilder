@@ -11,17 +11,17 @@ Media::applyFilter('render', function($self, $params, $chain) {
 
 	if ($params['response']->type() === 'json') {
 
-		$params['options'] += [
+		$params['options'] += array(
 			'view' => 'lithium\template\View',
-			'paths' => [
+			'paths' => array(
 				'layout'   => false,
 				'template' => '{:library}/views/{:controller}/{:template}.json.php',
 				'element'  => '{:library}/views/elements/{:template}.json.php'
-			],
+			),
 			'cast' => false,
 			'encode' => false,
 			'decode' => false
-		];
+		);
 	}
 
 	return $chain->next($self, $params, $chain);
