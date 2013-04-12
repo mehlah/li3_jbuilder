@@ -1,4 +1,4 @@
-### Adding JSON Responses to an Application
+### Adding JSON Responses to an Application [![Build Status](https://travis-ci.org/mehlah/li3_jbuilder.png?branch=master)](https://travis-ci.org/mehlah/li3_jbuilder)
 
 To demonstrate the befinits of this libary, we’ll use a simple application.
 This app has many `discussions` and we’d like to add a JSON representation for each `discussion`
