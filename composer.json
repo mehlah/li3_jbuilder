@@ -1,0 +1,18 @@
+{
+    "name": "mehlah/li3_jbuilder",
+    "type": "lithium-library",
+    "description": "Create JSON structures via a DSL",
+    "keywords": ["json", "api"],
+    "homepage": "https://github.com/mehlah/li3_jbuilder",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Mehdi Lahmam B.",
+            "email": "mehdi@lahmam.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "composer/installers": "*"
+    }
+}
